@@ -1,10 +1,3 @@
-//
-//  NASA_Gallery_SwiftTests.swift
-//  NASA-Gallery-SwiftTests
-//
-//  Created by A.Pagdanganan on 10/3/22.
-//
-
 import XCTest
 @testable import NASA_Gallery_Swift
 

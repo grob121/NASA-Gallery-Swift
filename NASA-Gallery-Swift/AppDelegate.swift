@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  NASA-Gallery-Swift
-//
-//  Created by A.Pagdanganan on 10/3/22.
-//
-
 import UIKit
 
 @main

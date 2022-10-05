@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F554AB1C28ED81BB004EEEC1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F554AB1B28ED81BB004EEEC1 /* Alamofire */; };
+		F554AB1F28ED81D6004EEEC1 /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = F554AB1E28ED81D6004EEEC1 /* ObjectMapper */; };
+		F58CD60828EC7C2700FEA9E8 /* PictureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58CD60728EC7C2700FEA9E8 /* PictureTests.swift */; };
+		F58CD60A28EC7D8A00FEA9E8 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58CD60928EC7D8A00FEA9E8 /* MockData.swift */; };
+		F58CD60C28EC9EE200FEA9E8 /* ListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58CD60B28EC9EE200FEA9E8 /* ListViewModelTests.swift */; };
+		F58CD61028ECE33B00FEA9E8 /* WebServiceSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58CD60F28ECE33B00FEA9E8 /* WebServiceSpy.swift */; };
+		F58CD61428ED0A2100FEA9E8 /* DetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58CD61328ED0A2100FEA9E8 /* DetailViewControllerTests.swift */; };
+		F58CD61628ED10DD00FEA9E8 /* DetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58CD61528ED10DD00FEA9E8 /* DetailViewModelTests.swift */; };
 		F5B1624A28EA50B800B6A101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B1624928EA50B800B6A101 /* AppDelegate.swift */; };
 		F5B1624C28EA50B800B6A101 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B1624B28EA50B800B6A101 /* SceneDelegate.swift */; };
-		F5B1624E28EA50B800B6A101 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B1624D28EA50B800B6A101 /* ViewController.swift */; };
+		F5B1624E28EA50B800B6A101 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B1624D28EA50B800B6A101 /* ListViewController.swift */; };
 		F5B1625128EA50B800B6A101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B1624F28EA50B800B6A101 /* Main.storyboard */; };
 		F5B1625328EA50C300B6A101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B1625228EA50C300B6A101 /* Assets.xcassets */; };
 		F5B1625628EA50C300B6A101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B1625428EA50C300B6A101 /* LaunchScreen.storyboard */; };
 		F5B1626128EA50C500B6A101 /* NASA_Gallery_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B1626028EA50C500B6A101 /* NASA_Gallery_SwiftTests.swift */; };
-		F5B1626B28EA50C500B6A101 /* NASA_Gallery_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B1626A28EA50C500B6A101 /* NASA_Gallery_SwiftUITests.swift */; };
-		F5B1626D28EA50C500B6A101 /* NASA_Gallery_SwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B1626C28EA50C500B6A101 /* NASA_Gallery_SwiftUITestsLaunchTests.swift */; };
+		F5B1627B28EB9B5600B6A101 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B1627A28EB9B5600B6A101 /* DetailViewController.swift */; };
+		F5B1627E28EB9B9800B6A101 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B1627D28EB9B9800B6A101 /* ListViewModel.swift */; };
+		F5B1628028EB9BA600B6A101 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B1627F28EB9BA600B6A101 /* DetailViewModel.swift */; };
+		F5B1628428EB9C2800B6A101 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B1628328EB9C2800B6A101 /* Router.swift */; };
+		F5B1628628EB9C4100B6A101 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B1628528EB9C4100B6A101 /* WebService.swift */; };
+		F5B1629128EBB71100B6A101 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B1629028EBB71100B6A101 /* Picture.swift */; };
+		F5B162BC28EBEB6000B6A101 /* PictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B162BA28EBEB6000B6A101 /* PictureCollectionViewCell.swift */; };
+		F5B162BD28EBEB6000B6A101 /* PictureCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B162BB28EBEB6000B6A101 /* PictureCollectionViewCell.xib */; };
+		F5B162BF28EC22B000B6A101 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5B162BE28EC22AF00B6A101 /* Localizable.strings */; };
+		F5B162C528EC5EE700B6A101 /* ListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B162C428EC5EE700B6A101 /* ListViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +52,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F58CD60728EC7C2700FEA9E8 /* PictureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureTests.swift; sourceTree = "<group>"; };
+		F58CD60928EC7D8A00FEA9E8 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		F58CD60B28EC9EE200FEA9E8 /* ListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelTests.swift; sourceTree = "<group>"; };
+		F58CD60F28ECE33B00FEA9E8 /* WebServiceSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceSpy.swift; sourceTree = "<group>"; };
+		F58CD61328ED0A2100FEA9E8 /* DetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerTests.swift; sourceTree = "<group>"; };
+		F58CD61528ED10DD00FEA9E8 /* DetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelTests.swift; sourceTree = "<group>"; };
 		F5B1624628EA50B800B6A101 /* NASA-Gallery-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NASA-Gallery-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B1624928EA50B800B6A101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5B1624B28EA50B800B6A101 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F5B1624D28EA50B800B6A101 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5B1624D28EA50B800B6A101 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		F5B1625028EA50B800B6A101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5B1625228EA50C300B6A101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5B1625528EA50C300B6A101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,8 +69,16 @@
 		F5B1625C28EA50C500B6A101 /* NASA-Gallery-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NASA-Gallery-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B1626028EA50C500B6A101 /* NASA_Gallery_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASA_Gallery_SwiftTests.swift; sourceTree = "<group>"; };
 		F5B1626628EA50C500B6A101 /* NASA-Gallery-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NASA-Gallery-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5B1626A28EA50C500B6A101 /* NASA_Gallery_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASA_Gallery_SwiftUITests.swift; sourceTree = "<group>"; };
-		F5B1626C28EA50C500B6A101 /* NASA_Gallery_SwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASA_Gallery_SwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5B1627A28EB9B5600B6A101 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F5B1627D28EB9B9800B6A101 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		F5B1627F28EB9BA600B6A101 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		F5B1628328EB9C2800B6A101 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		F5B1628528EB9C4100B6A101 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		F5B1629028EBB71100B6A101 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		F5B162BA28EBEB6000B6A101 /* PictureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCollectionViewCell.swift; sourceTree = "<group>"; };
+		F5B162BB28EBEB6000B6A101 /* PictureCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureCollectionViewCell.xib; sourceTree = "<group>"; };
+		F5B162BE28EC22AF00B6A101 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		F5B162C428EC5EE700B6A101 /* ListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F554AB1F28ED81D6004EEEC1 /* ObjectMapper in Frameworks */,
+				F554AB1C28ED81BB004EEEC1 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +113,6 @@
 			children = (
 				F5B1624828EA50B800B6A101 /* NASA-Gallery-Swift */,
 				F5B1625F28EA50C500B6A101 /* NASA-Gallery-SwiftTests */,
-				F5B1626928EA50C500B6A101 /* NASA-Gallery-SwiftUITests */,
 				F5B1624728EA50B800B6A101 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,13 +130,18 @@
 		F5B1624828EA50B800B6A101 /* NASA-Gallery-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				F5B1627928EB9AF400B6A101 /* ViewControllers */,
+				F5B162B928EBEB3A00B6A101 /* View */,
+				F5B1627C28EB9B5C00B6A101 /* ViewModels */,
+				F5B1628128EB9BEA00B6A101 /* Model */,
+				F5B1628228EB9C0E00B6A101 /* Helper */,
 				F5B1624928EA50B800B6A101 /* AppDelegate.swift */,
 				F5B1624B28EA50B800B6A101 /* SceneDelegate.swift */,
-				F5B1624D28EA50B800B6A101 /* ViewController.swift */,
 				F5B1624F28EA50B800B6A101 /* Main.storyboard */,
 				F5B1625228EA50C300B6A101 /* Assets.xcassets */,
 				F5B1625428EA50C300B6A101 /* LaunchScreen.storyboard */,
 				F5B1625728EA50C300B6A101 /* Info.plist */,
+				F5B162BE28EC22AF00B6A101 /* Localizable.strings */,
 			);
 			path = "NASA-Gallery-Swift";
 			sourceTree = "<group>";
@@ -114,17 +150,67 @@
 			isa = PBXGroup;
 			children = (
 				F5B1626028EA50C500B6A101 /* NASA_Gallery_SwiftTests.swift */,
+				F5B162C428EC5EE700B6A101 /* ListViewControllerTests.swift */,
+				F58CD60B28EC9EE200FEA9E8 /* ListViewModelTests.swift */,
+				F58CD60728EC7C2700FEA9E8 /* PictureTests.swift */,
+				F58CD60928EC7D8A00FEA9E8 /* MockData.swift */,
+				F58CD60F28ECE33B00FEA9E8 /* WebServiceSpy.swift */,
+				F58CD61328ED0A2100FEA9E8 /* DetailViewControllerTests.swift */,
+				F58CD61528ED10DD00FEA9E8 /* DetailViewModelTests.swift */,
 			);
 			path = "NASA-Gallery-SwiftTests";
 			sourceTree = "<group>";
 		};
-		F5B1626928EA50C500B6A101 /* NASA-Gallery-SwiftUITests */ = {
+		F5B1627928EB9AF400B6A101 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				F5B1626A28EA50C500B6A101 /* NASA_Gallery_SwiftUITests.swift */,
-				F5B1626C28EA50C500B6A101 /* NASA_Gallery_SwiftUITestsLaunchTests.swift */,
+				F5B1624D28EA50B800B6A101 /* ListViewController.swift */,
+				F5B1627A28EB9B5600B6A101 /* DetailViewController.swift */,
 			);
-			path = "NASA-Gallery-SwiftUITests";
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F5B1627C28EB9B5C00B6A101 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F5B1627D28EB9B9800B6A101 /* ListViewModel.swift */,
+				F5B1627F28EB9BA600B6A101 /* DetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F5B1628128EB9BEA00B6A101 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5B1629028EBB71100B6A101 /* Picture.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5B1628228EB9C0E00B6A101 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F5B1628728EB9C6400B6A101 /* Service */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F5B1628728EB9C6400B6A101 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F5B1628328EB9C2800B6A101 /* Router.swift */,
+				F5B1628528EB9C4100B6A101 /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F5B162B928EBEB3A00B6A101 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5B162BA28EBEB6000B6A101 /* PictureCollectionViewCell.swift */,
+				F5B162BB28EBEB6000B6A101 /* PictureCollectionViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +229,10 @@
 			dependencies = (
 			);
 			name = "NASA-Gallery-Swift";
+			packageProductDependencies = (
+				F554AB1B28ED81BB004EEEC1 /* Alamofire */,
+				F554AB1E28ED81D6004EEEC1 /* ObjectMapper */,
+			);
 			productName = "NASA-Gallery-Swift";
 			productReference = F5B1624628EA50B800B6A101 /* NASA-Gallery-Swift.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +305,10 @@
 				Base,
 			);
 			mainGroup = F5B1623D28EA50B800B6A101;
+			packageReferences = (
+				F554AB1A28ED81BB004EEEC1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F554AB1D28ED81D6004EEEC1 /* XCRemoteSwiftPackageReference "ObjectMapper" */,
+			);
 			productRefGroup = F5B1624728EA50B800B6A101 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +325,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B162BF28EC22B000B6A101 /* Localizable.strings in Resources */,
 				F5B1625628EA50C300B6A101 /* LaunchScreen.storyboard in Resources */,
 				F5B1625328EA50C300B6A101 /* Assets.xcassets in Resources */,
+				F5B162BD28EBEB6000B6A101 /* PictureCollectionViewCell.xib in Resources */,
 				F5B1625128EA50B800B6A101 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +354,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5B1624E28EA50B800B6A101 /* ViewController.swift in Sources */,
+				F5B162BC28EBEB6000B6A101 /* PictureCollectionViewCell.swift in Sources */,
+				F5B1629128EBB71100B6A101 /* Picture.swift in Sources */,
+				F5B1627E28EB9B9800B6A101 /* ListViewModel.swift in Sources */,
+				F5B1628028EB9BA600B6A101 /* DetailViewModel.swift in Sources */,
+				F5B1628628EB9C4100B6A101 /* WebService.swift in Sources */,
+				F5B1624E28EA50B800B6A101 /* ListViewController.swift in Sources */,
+				F5B1628428EB9C2800B6A101 /* Router.swift in Sources */,
 				F5B1624A28EA50B800B6A101 /* AppDelegate.swift in Sources */,
 				F5B1624C28EA50B800B6A101 /* SceneDelegate.swift in Sources */,
+				F5B1627B28EB9B5600B6A101 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +371,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B162C528EC5EE700B6A101 /* ListViewControllerTests.swift in Sources */,
+				F58CD61028ECE33B00FEA9E8 /* WebServiceSpy.swift in Sources */,
+				F58CD60A28EC7D8A00FEA9E8 /* MockData.swift in Sources */,
+				F58CD60828EC7C2700FEA9E8 /* PictureTests.swift in Sources */,
+				F58CD61428ED0A2100FEA9E8 /* DetailViewControllerTests.swift in Sources */,
+				F58CD60C28EC9EE200FEA9E8 /* ListViewModelTests.swift in Sources */,
 				F5B1626128EA50C500B6A101 /* NASA_Gallery_SwiftTests.swift in Sources */,
+				F58CD61628ED10DD00FEA9E8 /* DetailViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +386,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5B1626D28EA50C500B6A101 /* NASA_Gallery_SwiftUITestsLaunchTests.swift in Sources */,
-				F5B1626B28EA50C500B6A101 /* NASA_Gallery_SwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,6 +712,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F554AB1A28ED81BB004EEEC1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		F554AB1D28ED81D6004EEEC1 /* XCRemoteSwiftPackageReference "ObjectMapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tristanhimmelman/ObjectMapper.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F554AB1B28ED81BB004EEEC1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F554AB1A28ED81BB004EEEC1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F554AB1E28ED81D6004EEEC1 /* ObjectMapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F554AB1D28ED81D6004EEEC1 /* XCRemoteSwiftPackageReference "ObjectMapper" */;
+			productName = ObjectMapper;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F5B1623E28EA50B800B6A101 /* Project object */;
 }
